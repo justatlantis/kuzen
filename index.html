@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <title>Kuzen's Extinction</title>
+</head>
+<body>
+  <div class="container">
+    <img src="./birthday.jpg" alt="birthday" class="birthday">
+    <div class="text">
+      <h1>Doğum günün kutlu olsun kuzen!</h1>
+      <p>Hayatın bilimin ışığıyla aydınlansın. Kuzenim olduğun için teşekkür ederim.</p>
+      <p class="muted">- Muhteşem Varlık</p>
+      <!-- <iframe width="0" height="0" src="https://www.youtuberepeater.com/watch?v=qQ6OCxKVzmg#gsc.tab=0" frameborder="0" allowfullscreen></iframe> -->
+      <!-- <embed src="./Happy Birthday (Cello Version).mp3" loop="true" autostart="true" width="2" height="0"> -->
+        <audio id="song" src="Happy Birthday (Cello Version).mp3"></audio>
+
+      
+    </div>
+    <div class="space"></div>
+  </div>
+  <script>
+    
+    window.addEventListener('click', () => {
+                document.getElementById("song").play();
+            });
+            document.addEventListener('contextmenu', event => event.preventDefault());
+
+        
+
+  </script>
+</body>
+</html>
